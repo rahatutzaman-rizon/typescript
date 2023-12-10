@@ -1,4 +1,4 @@
-## What are some benefits of using TypeScript over JavaScript in a project?
+# What are some benefits of using TypeScript over JavaScript in a project?
   
 - Less Errors: It helps catch mistakes     early with static typing.
 - Clearer Code: Type annotations make code more readable and organized.
@@ -7,7 +7,7 @@
 
 
 
-## What is the purpose of the optional chaining (?.) and nullish coalescing (??) operators in TypeScript, and how do they work? Provide an example for each
+# What is the purpose of the optional chaining (?.) and nullish coalescing (??) operators in TypeScript, and how do they work? Provide an example for each
 
 #### optional chainig:
 
@@ -40,7 +40,7 @@ console.log(username); // Output: "rahim"
 
 
 
-## How do you handle asynchronous operations in TypeScript, and what are the advantages of using async/await over callbacks or Promises?.
+# How do you handle asynchronous operations in TypeScript, and what are the advantages of using async/await over callbacks or Promises?.
 - fetchData function uses async/await to make an asynchronous request to fetch data. 
 - example:
  async function fetchData(): Promise<string> {
@@ -54,7 +54,7 @@ Error Handling: Simplifies dealing with errors using try/catch.
 Sequencing: Helps in arranging tasks one after another for better structure.
 
 
-## How can you use TypeScript's enums, and what are their advantages?.
+# How can you use TypeScript's enums, and what are their advantages?.
 - Declare enums for clear and meaningful representation of values.
 - example 
  - enum Animal {
@@ -75,7 +75,7 @@ Sequencing: Helps in arranging tasks one after another for better structure.
 
     case Animal.Fish:
       return 'Glub glub! I am a fish.';
-  }
+  } 
 }
 
 const myPet: Animal = Animal.Cat;
